@@ -1,0 +1,24 @@
+div {
+    height: 200px;
+    width: 200px;
+    background: red;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.increase:hover {
+    transform: scale(3, 2);
+}
+
+.decrease:hover {
+    transform: scale(.5, .5);
+}
+ 
+.scale_x:hover {
+    transform: scaleX(2);
+}
+
+.scale_y:hover {
+    transform: scaleY(.5);
+}

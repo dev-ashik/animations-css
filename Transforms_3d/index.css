@@ -1,0 +1,20 @@
+div {
+    height: 200px;
+    width: 200px;
+    background: red;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.rotate_x:hover {
+    transform: rotateX(150deg);
+}
+
+.rotate_y:hover {
+    transform: rotateY(150deg);
+}
+
+.rotate_z:hover {
+    transform: rotateZ(90deg);
+}

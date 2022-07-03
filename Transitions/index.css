@@ -1,0 +1,23 @@
+div {
+    height: 200px;
+    width: 200px;
+    background: red;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.first_div {
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+
+    /* short hand */
+    /* transition: width 2s linear 1s; */
+}
+
+.first_div:hover {
+    width: 300px;
+}

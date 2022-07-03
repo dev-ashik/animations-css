@@ -1,0 +1,24 @@
+div {
+    height: 200px;
+    width: 200px;
+    background: red;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.skew1:hover {
+    transform: skew(20deg);
+}
+.skew2:hover {
+    transform: skew(20deg, 10deg);
+}
+
+.skew_x:hover {
+    transform: skewX(20deg);
+}
+
+.skew_y:hover {
+    transform: skewY(20deg);
+}

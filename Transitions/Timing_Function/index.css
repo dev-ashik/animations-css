@@ -1,0 +1,59 @@
+div {
+    height: 200px;
+    width: 200px;
+    background: red;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ease {
+    transition: width 2s;
+    transition-timing-function: ease;
+}
+.ease:hover {
+    width: 400px;
+}
+
+
+.linear {
+    transition: width 2s;
+    transition-timing-function: linear;
+}
+.linear:hover {
+    width: 400px;
+}
+
+
+.ease_in {
+    transition: width 2s;
+    transition-timing-function: ease-in;
+}
+.ease_in:hover {
+    width: 400px;
+}
+
+
+.ease_out {
+    transition: width 2s;
+    transition-timing-function: ease-out;
+}
+.ease_out:hover {
+    width: 400px;
+}
+
+
+.ease_in_out {
+    transition: width 2s;
+    transition-timing-function: ease-in-out;
+}
+.ease_in_out:hover {
+    width: 400px;
+}
+
+
+.cubic_bezier {
+    transition: width 2s;
+    transition-timing-function: linear;
+}

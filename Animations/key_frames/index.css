@@ -1,0 +1,73 @@
+div {
+    height: 200px;
+    width: 200px;
+    background: red;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.div1 {
+    animation-name: colorChange;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+
+@keyframes colorChange {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: yellow;
+    }
+}
+
+.div2 {
+    animation-name: colorChange2;
+    animation-duration: 4s;
+}
+
+@keyframes colorChange2 {
+    0% {background-color: red;}
+  25%{background-color: yellow;}
+  50% {background-color: blue;}
+  100%{background-color: green;}
+}
+
+
+
+.div3 {
+    animation-name: colorChange3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorChange3 {
+    0% {
+        background-color:red; 
+        left:0px; 
+        top:0px;
+    }
+    25% {
+        background-color:yellow; 
+        left:200px; 
+        top:0px;
+    }
+    50% {
+        background-color:blue; 
+        left:200px; 
+        top:200px;
+    }
+    75% {
+        background-color:green;
+        left:0px;
+        top:200px;
+    }
+    100% {
+        background-color:red;
+        left:0px;
+        top:0px;
+    }
+  
+}
